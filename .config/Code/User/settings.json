@@ -9,5 +9,6 @@
     "workbench.iconTheme": "vscode-icons",
     "workbench.colorTheme": "Ayu Dark Bordered",
     "vsicons.dontShowNewVersionMessage": true,
-    "workbench.secondarySideBar.defaultVisibility": "hidden"
+    "workbench.secondarySideBar.defaultVisibility": "hidden",
+    "workbench.startupEditor": "none"
 }
