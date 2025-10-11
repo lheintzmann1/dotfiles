@@ -1,0 +1,12 @@
+# Completion and history
+shopt -s histappend
+HISTCONTROL=ignoredups:ignorespace
+HISTSIZE=10000
+
+# Aliases (shared via ~/.bash_aliases)
+if [ -f "$HOME/.bash_aliases" ]; then
+  . "$HOME/.bash_aliases"
+fi
+
+# Prompt via Starship
+eval "$(starship init bash)"
