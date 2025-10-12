@@ -12,5 +12,4 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 eval "$(zoxide init zsh --cmd cd)"
 eval "$(starship init zsh)"
 
-source "$HOME/.bash_aliases"
-
+[ -f "$HOME/.bash_aliases" ] && source "$HOME/.bash_aliases"
