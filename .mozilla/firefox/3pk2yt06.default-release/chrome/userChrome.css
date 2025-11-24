@@ -1,3 +1,22 @@
+/*
+    Hide the bookmarks folder icon in the bookmarks toolbar
+  */
 #personal-bookmarks .bookmark-item>.toolbarbutton-icon {
   display: none !important
+}
+
+/*
+   Hide Extension Name in the identity area unless
+   hovered for half a second (updated for Fx80)
+*/
+#identity-box.extensionPage #identity-icon-labels,
+#identity-box.extensionPage #identity-icon-label {
+  visibility: collapse !important;
+  transition: visibility 250ms ease-in-out;
+}
+
+#identity-box.extensionPage:hover #identity-icon-labels,
+#identity-box.extensionPage:hover #identity-icon-label {
+  visibility: visible !important;
+  transition: visibility 250ms ease-in-out 500ms;
 }
