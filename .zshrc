@@ -13,3 +13,6 @@ eval "$(zoxide init zsh --cmd cd)"
 eval "$(starship init zsh)"
 
 [ -f "$HOME/.bash_aliases" ] && source "$HOME/.bash_aliases"
+
+# Add dx to PATH
+export PATH="$HOME/.dx/bin:$PATH"
