@@ -13,3 +13,4 @@ alias cat='bat'
 alias grep='rg'
 alias find='fd'
 
+alias nano='micro'
