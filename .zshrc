@@ -16,3 +16,10 @@ eval "$(starship init zsh)"
 
 # Add dx to PATH
 export PATH="$HOME/.dx/bin:$PATH"
+
+# bun completions
+[ -s "/home/mrrobot/.bun/_bun" ] && source "/home/mrrobot/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
