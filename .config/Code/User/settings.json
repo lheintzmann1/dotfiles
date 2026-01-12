@@ -32,5 +32,11 @@
         "plaintext": false,
         "markdown": true,
         "scminput": false
+    },
+    "tailwindCSS.experimental.classRegex": [
+        "class: \"(.*)\""
+    ],
+    "tailwindCSS.includeLanguages": {
+        "rust": "html"
     }
 }
