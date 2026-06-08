@@ -1,25 +1,3 @@
 # VS Code runtime state
-.config/Code/Backups/
-.config/Code/Cache/
-.config/Code/CachedConfigurations/
-.config/Code/CachedData/
-.config/Code/CachedExtensionVSIXs/
-.config/Code/CachedProfilesData/
-.config/Code/Code Cache/
-.config/Code/Crashpad/
-.config/Code/DawnGraphiteCache/
-.config/Code/DawnWebGPUCache/
-.config/Code/Dictionaries/
-.config/Code/GPUCache/
-.config/Code/Local Storage/
-.config/Code/Session Storage/
-.config/Code/Shared Dictionary/
-.config/Code/blob_storage/
-.config/Code/logs/
-
-# User-local state that should not be versioned
-.config/Code/User/History/
-.config/Code/User/chatLanguageModels.json
-.config/Code/User/globalStorage/
-.config/Code/User/sync/
-.config/Code/User/workspaceStorage/
+.config/Code/*
+!.config/Code/User/settings.json
