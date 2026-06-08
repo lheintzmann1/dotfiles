@@ -1,0 +1,25 @@
+# VS Code runtime state
+Backups/
+Cache/
+CachedConfigurations/
+CachedData/
+CachedExtensionVSIXs/
+CachedProfilesData/
+Code Cache/
+Crashpad/
+DawnGraphiteCache/
+DawnWebGPUCache/
+Dictionaries/
+GPUCache/
+Local Storage/
+Session Storage/
+Shared Dictionary/
+blob_storage/
+logs/
+
+# User-local state that should not be versioned
+User/History/
+User/chatLanguageModels.json
+User/globalStorage/
+User/sync/
+User/workspaceStorage/
